@@ -1,0 +1,29 @@
+.para-heading{
+    font-size: 30px;
+}
+.analytics-btn{
+    background-color: transparent;
+    border:1px solid #ccc;
+    height:40px;
+}
+.cancel-btn{
+   
+        border:none;
+        color: #00bcf8;
+        background-color:transparent;
+    }
+    .product-name{
+        color: #00bcf8;
+        text-decoration: none;
+    }
+
+.change-btn{
+    background-color: transparent;
+}
+.change-btn2{
+    background-color: transparent;
+    margin-left:10px;
+}
+.profile-page-height{
+    min-height: 460px;
+}

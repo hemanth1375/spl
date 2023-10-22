@@ -1,0 +1,34 @@
+.header-image{
+    text-align:left;
+}
+.nav-bg{
+    background-color: rgb(20,155,186) !important;
+    color:white;
+}
+.text-color{
+    color:white !important;
+}
+.nav-bg a{
+    color:white;
+}
+.signin-button{
+    background-color: transparent;
+    color:white;
+    outline: none;
+    border:none;
+}
+.nav-height{
+    /* height:22vh; */
+}
+.username{
+    background-color: transparent;
+    color:white;
+    border:none;
+}
+.dropdown-btn:hover{
+cursor: pointer;
+}
+.dropdown-position{
+    left:-82px !important;
+    top:40px !important;
+}

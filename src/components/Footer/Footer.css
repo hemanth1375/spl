@@ -1,0 +1,32 @@
+.icons{
+    /* background: url('https://apimgmtstsgan2zrcngrxhec.blob.core.windows.net/content/MediaLibrary/Images/aYoutube.png') no-repeat;  */
+    display: inline-block; 
+    width: 37px; 
+    height: 37px; 
+    margin: 4px 4px 4px;
+}
+.icon-youtube{
+    background: url('https://apimgmtstsgan2zrcngrxhec.blob.core.windows.net/content/MediaLibrary/Images/aYoutube.png') no-repeat; 
+
+}
+.icon-twitter{
+    background: url('https://apimgmtstsgan2zrcngrxhec.blob.core.windows.net/content/MediaLibrary/Images/aTwitter.png') no-repeat; 
+
+}
+.icon-facebook{
+    background: url('https://apimgmtstsgan2zrcngrxhec.blob.core.windows.net/content/MediaLibrary/Images/aFaceBook.png') no-repeat; 
+
+}
+.footer-height{
+    /* height:30vh; */
+}
+.anchor-tags a{
+    text-decoration: none;
+    color:black;
+}
+.anchor-tags a:hover{
+    text-decoration: underline;
+}
+.cursor{
+    cursor: pointer;
+}

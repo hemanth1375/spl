@@ -1,0 +1,34 @@
+.list-items{
+    list-style:disc;
+    font-size:25px;
+    text-align: left;
+    font-family: "wf_segoe-ui_light","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP","Tahoma","Arial","sans-serif";
+}
+.list-items:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#00bcf8;
+}
+.anchor-item{
+    text-decoration: none;
+    color:#00bcf8;
+}
+/* .apipage-height{
+    min-height: 48vh;
+} */
+.container-fluid.apipage-height {
+    position: relative;
+    min-height: 460px;
+    /* ... other styles ... */
+  }
+  
+  .doc-pagination-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white; /* Set your desired background color */
+    z-index: 1; /* Set a z-index value higher than the main content but lower than the footer */
+  }
+  .doc-page-height{
+    min-height: 460px;
+  }

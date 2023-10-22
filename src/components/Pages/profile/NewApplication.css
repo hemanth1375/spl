@@ -1,0 +1,16 @@
+.appl-heading{
+    font-size:30px;
+}
+.save-btn{
+    background-color: #428bca;
+    margin-right: 10px;
+    color:white;
+    border: none;
+}
+.cancel-btn{
+    background-color: transparent;
+    border: none;
+}
+.app-page-height{
+    min-height: 460px;
+}

@@ -1,0 +1,74 @@
+.login-body{
+    text-align: start;
+}
+.button-space{
+    display: flex;
+    justify-content: space-between !important;
+}
+.form-group label{
+    color:#505050;
+    font-weight: bold;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Adjust as needed */
+  }
+  .error-input {
+    border: 1px solid red;
+  }
+  .signup-btn{
+    color:#00bcf8;
+
+  }
+  .signup-btn:hover{
+    cursor: pointer;
+  }
+  /* .input-container-password {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .input-icon-password {
+    position: absolute;
+    top: 65%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+
+  .input-icon-password i {
+    font-size: 20px;
+    color: #555;
+  }
+  
+
+  .input-icon-password.active i {
+    color: #007bff;
+  } */
+  .input-container-password {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px; /* Set a fixed height for the input field */
+    line-height: 40px; /* Vertically center the text within the input field */
+  }
+  
+  .input-icon-password {
+    position: absolute;
+    top: 50%; /* Center the icon vertically */
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .input-icon-password i {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .input-icon-password.active i {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,20 @@
+.signup-body{
+    text-align: start;
+}
+.form-group label{
+    color:#505050;
+    font-weight: bold;
+}
+.signin-btn{
+    color:#00bcf8;
+
+  }
+  .signin-btn:hover{
+    cursor: pointer;
+  }
+  .user-input-error{
+    color:red;
+  }
+  .error-input{
+   border-color: red !important;
+  }

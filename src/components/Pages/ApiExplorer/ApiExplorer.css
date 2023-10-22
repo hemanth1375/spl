@@ -1,0 +1,45 @@
+.page-height{
+  min-height: 460px;
+}
+.list-item{
+    list-style-type: none;
+    font-size:25px;
+    text-align: left;
+    font-family: "wf_segoe-ui_light","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP","Tahoma","Arial","sans-serif";
+}
+.list-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#00bcf8;
+}
+.anchor-item{
+    text-decoration: none;
+    color:#00bcf8;
+}
+/* .apipage-height{
+    min-height: 48vh;
+} */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    position: fixed; /* Fixed position to keep the loader in place while scrolling */
+    background: transparent; /* Semi-transparent background */
+    top: 0;
+    left: 0;
+  }
+  .container-fluid.apipage-height {
+    position: relative;
+    min-height: 460px;
+    /* ... other styles ... */
+  }
+  
+  .pagination-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white; /* Set your desired background color */
+    z-index: 1; /* Set a z-index value higher than the main content but lower than the footer */
+  }

@@ -1,0 +1,55 @@
+.list-item{
+    list-style-type: none;
+    font-size:25px;
+    text-align: left;
+    font-family: "wf_segoe-ui_light","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP","Tahoma","Arial","sans-serif";
+}
+.list-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#00bcf8;
+}
+.anchor-item{
+    text-decoration: none;
+    color:#00bcf8;
+}
+.anchor-item:hover{
+    cursor: pointer;
+}
+/* .apipage-height{
+    min-height: 48vh;
+} */
+.app-name{
+    color:#00bcf8;
+    text-decoration: none;
+}
+.subscribe-btn{
+    background-color: #428bca;
+    color:white;
+    border: none;
+}
+.sub-border{
+   
+    padding: 15px;
+}
+.cancel-button{
+    background-color: transparent;
+    border: none;
+    margin-left:10px;
+}
+.container-fluid.apipage-height {
+    position: relative;
+    min-height: 460px;
+    /* ... other styles ... */
+  }
+  
+  .prod-pagination-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white; /* Set your desired background color */
+    z-index: 1; /* Set a z-index value higher than the main content but lower than the footer */
+  }
+  .product-page-height{
+    min-height: 460px;
+}

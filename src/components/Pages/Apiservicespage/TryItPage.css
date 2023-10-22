@@ -1,0 +1,139 @@
+.api-path-bg{
+    background-color: rgb(240, 240, 240);
+    height:100;
+}
+.page-height{
+    min-height: 48vh;
+}
+.side-bar{
+    color:#00bcf8;
+    margin-bottom:10px;
+}
+.side-bar:hover{
+    cursor:pointer;
+    color:blue;
+}
+
+.button-size{
+    height:30px;
+    width: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    border:none;
+    background-color: rgb(32, 173, 126);
+    color:white;
+    margin-right:15px;
+}
+.background{
+    background-color: #428bca;
+    color:white;
+}
+.try-button{
+    background-color: #00bcf8;
+    color:white;
+    border: none;
+    height:38px;
+    width:80px;
+}
+.list-item-response{
+    list-style-type: none;
+}
+.response-background-container{
+    padding: 20px;
+   
+}
+.response-background{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.response-background ul{
+    margin-bottom: 0px;
+}
+.add-remove-buttons{
+    border:none;
+    color: #00bcf8;
+    background-color:transparent;
+}
+.box{
+    border:1px solid;
+    padding:1px
+}
+.tryit-page-container{
+    text-align:left;
+    padding-left:20px;
+    /* margin-top:3rem */
+}
+.text-area-width{
+    width:100%;
+    height:150px;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Adjust as needed */
+  }
+  .error-input {
+    border: 1px solid red;
+  }
+  .getkey-btn{
+    height:30px;
+    color:#428bca;
+    background-color: transparent;
+    border-radius: 5px;
+    border:1px solid;
+  }
+  .getkey-btn:hover{
+    background-color: #428bca;
+    color:white;
+  }
+.block-pointer{
+  cursor:not-allowed;
+}
+  /* style icon */
+
+  .input-container {
+    position: relative;
+    display: inline-block;
+    /* width: 100%; */
+  }
+  
+  
+  .input {
+    /* width: 100%; */
+    /* padding: 10px; */
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+
+  
+
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+
+  .input-icon i {
+    font-size: 20px;
+    color: #555;
+  }
+  
+
+  .input-icon.active i {
+    color: #007bff;
+  }
+  .dropdown-width{
+    width:189px;
+  }
+  .text-wrap{
+    word-wrap: break-word;
+    white-space: pre-line;
+  }

@@ -1,0 +1,18 @@
+.doc-list{
+    color:#00bcf8;
+    cursor: pointer;
+    text-decoration: none;
+}
+.doc-para{
+    font-family: "wf_segoe-ui_normal","Segoe UI","Segoe WP","Tahoma","Arial","sans-serif";
+    color:"#505050";
+    text-align: justify;
+}
+.doc-end-page-height{
+    min-height: 460px;
+}
+.docend-title{
+    overflow: hidden;
+    white-space: normal;
+ text-overflow: ellipsis; 
+}
